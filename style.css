@@ -1,0 +1,123 @@
+*{
+  background-color: lightgray;}
+
+  h1 {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 90px;
+    color: yellow;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: blue;
+    border-radius: 8px;
+    background-color: lightgray;
+    margin: 0 auto;
+    border-radius: 25px;
+
+  }
+
+  .Header{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color: lightgray;
+    border-radius: 25px;
+  }
+
+  #Search{
+    position: relative;
+    margin-right: 80px;
+    width: 100%;
+    max-width: 280px;
+    border-radius: 25px;
+    overflow: hidden;
+    color: black;
+    background-color: white !important;
+  }
+
+  .flexContainer{
+    display: flex !important;
+    flex-wrap: wrap;
+    background-color:white;
+    justify-content: start !important;
+
+  }
+
+  .PokemonInfo{
+    background-color: lightgray;
+    /* aspect-ratio: 479 / 698; */
+    width: calc(100% / 4 - 20px);
+    margin: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+  }
+
+  .imgCont{
+    display: flex;
+    border-radius: 30px;
+  }
+
+
+  .imgCont > img{
+    width: calc(100% / 2 - 20px);
+    border-radius: 30px;
+  }
+
+  .nameCont{
+    margin-top:25px;
+    text-align: center;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+  }
+
+  .flexType{
+    display: flex;
+    justify-content: center;
+  }
+
+  .TypeDiv{
+    margin: 25px;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+  }
+
+  .PokeDesc{
+    text-align: center;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+  .flexStatsVisual{
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .Stats{
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15px;
+    margin:auto;
+  }
+
+  .fixed{
+    position: fixed; 
+    border-radius: 30px;
+  }
